@@ -9,6 +9,9 @@ typedef struct {
   INSTR *prog;
   int itap;
   int rbp;
+  int cristais;
+  int X;
+  int Y;
 } Maquina;
 
 Maquina *cria_maquina(INSTR *p);
