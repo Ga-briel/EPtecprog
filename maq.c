@@ -54,6 +54,7 @@ Maquina *cria_maquina(INSTR *p) {
   if (!m) Fatal("Memória insuficiente",4);
   m->ip = 0;
   m->prog = p;
+  m.cristais = 0;
   return m;
 }
 
